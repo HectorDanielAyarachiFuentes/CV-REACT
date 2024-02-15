@@ -42,7 +42,7 @@ function Header() {
         </div>
       </div>
 
-      <p style={{ textAlign: 'center', marginTop: '20px', color: '#333' }}>
+      <p style={{ textAlign: 'center', marginTop: '20px', color: 'white' }}>
         Desarrollador Web
       </p>
     </header>
