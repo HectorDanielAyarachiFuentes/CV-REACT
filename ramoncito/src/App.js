@@ -19,7 +19,6 @@ function App() {
 
         {/* Agrega más experiencias laborales según sea necesario */}
       </section>
-      
 
       <section className="App-section">
         <h2>Educación</h2>
