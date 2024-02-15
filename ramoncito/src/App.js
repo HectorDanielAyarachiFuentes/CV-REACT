@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Nombre Apellido</h1>
+        <img src="/profileImg/Profile.jpg" alt="Profile" />
+
         <p>Desarrollador Web</p>
       </header>
 
