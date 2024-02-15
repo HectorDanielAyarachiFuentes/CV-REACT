@@ -6,6 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Nombre Apellido</h1>
+        <div style={{ textAlign: 'center' }}>
+      <div style={{ display: 'inline-block', position: 'relative' }}>
+        <img
+          src="/imagenes/dulce.png"
+          alt="Profile"
+          style={{ width: '100%', height: 'auto', maxWidth: '300px' }}
+        />
+      </div>
+    </div>
+  
         <p>Desarrollador Web</p>
       </header>
 
