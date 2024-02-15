@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
-import Header from './header';
-import Footer from './footer';
+import React from "react";
+import "./App.css";
+import Header from "./header";
+import Footer from "./footer";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
