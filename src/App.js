@@ -4,19 +4,37 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Nombre Apellido</h1>
-        <div style={{ textAlign: 'center' }}>
-      <div style={{ display: 'inline-block', position: 'relative' }}>
-        <img
-          src="/imagenes/dulce.png"
-          alt="Profile"
-          style={{ width: '100%', height: 'auto', maxWidth: '300px' }}
-        />
-      </div>
-    </div>
-  
-        <p>Desarrollador Web</p>
+     <header className="App-header">
+        {/* Portada */}
+        <div
+          style={{
+            backgroundColor: '#4285f4', // Puedes cambiar el color de fondo
+            height: '400px', // Ajusta la altura según tus necesidades
+            position: 'relative',
+            width: '100%',
+          }}
+        >
+          {/* Contenido de la portada (puedes añadir texto u otros elementos) */}
+          <h1 style={{ color: '#fff', textAlign: 'center', paddingTop: '80px' }}>
+            Hector Daniel Ayarachi Fuentes
+          </h1>
+        </div>
+
+        {/* Foto de perfil */}
+        <div style={{ textAlign: 'center', marginTop: '-150px', position: 'relative' }}>
+          <div style={{ display: 'inline-block', position: 'relative' }}>
+            <img
+              src="/imagenes/dulce.png"
+              alt="Profile"
+              style={{ width: '100%', height: 'auto', maxWidth: '300px', borderRadius: '50%' }}
+            />
+          </div>
+        </div>
+
+        {/* Información adicional */}
+        <p style={{ textAlign: 'center', marginTop: '20px', color: '#333' }}>
+          Desarrollador Web
+        </p>
       </header>
 
       <section className="App-section">
