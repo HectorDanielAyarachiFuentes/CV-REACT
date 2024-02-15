@@ -20,16 +20,31 @@ function App() {
           </h1>
         </div>
 
-        {/* Foto de perfil */}
-        <div style={{ textAlign: 'center', marginTop: '-150px', position: 'relative' }}>
-          <div style={{ display: 'inline-block', position: 'relative' }}>
-            <img
-              src="/imagenes/dulce.png"
-              alt="Profile"
-              style={{ width: '100%', height: 'auto', maxWidth: '300px', borderRadius: '50%' }}
-            />
-          </div>
-        </div>
+      {/* Foto de perfil */}
+<div style={{ textAlign: 'center', marginTop: '-150px', position: 'relative' }}>
+  <div
+    style={{
+      display: 'inline-block',
+      position: 'relative',
+      width: '200px', // Establece el ancho fijo del contenedor
+      height: '200px', // Establece la altura fija del contenedor
+      borderRadius: '50%', // Hace que el div sea circular
+      overflow: 'hidden', // Asegura que la imagen no sobresalga del contenedor circular
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Efecto de sombra
+    }}
+  >
+    <img
+      src="/imagenes/dulce.png"
+      alt="Profile"
+      style={{
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+      }}
+    />
+  </div>
+</div>
+
 
         {/* Información adicional */}
         <p style={{ textAlign: 'center', marginTop: '20px', color: '#333' }}>
