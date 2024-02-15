@@ -6,12 +6,17 @@ function Header() {
     <header className="App-header">
       {/* Contenido del header movido aquí */}
       <div
-        style={{
-          backgroundColor: '#4285f4',
-          height: '400px',
-          position: 'relative',
-          width: '100%',
-        }}
+      style={{
+        backgroundImage: 'url("/imagenes/dulceportada.png")',
+        backgroundSize: 'cover', // Esto mantiene la proporción y cubre todo el contenedor
+        backgroundRepeat: 'no-repeat', // Evita que la imagen se repita
+        height: '400px',
+        position: 'relative',
+        width: '100%',
+        backgroundPosition: '50% 32%', // Centra la imagen en el eje X y la posición vertical al 32%
+      }}
+      
+        
       >
         <h1 style={{ color: '#fff', textAlign: 'center', paddingTop: '80px' }}>
           Hector Daniel Ayarachi Fuentes
