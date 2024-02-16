@@ -110,3 +110,6 @@ Una vez que hayas terminado de desarrollar tu aplicación React, puedes implemen
 
 
 
+
+> `*Editado y escrito por Hector Daniel Ayarachi Fuentes*`
+
