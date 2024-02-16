@@ -56,9 +56,7 @@ Ahora puedes empezar a editar tu proyecto React. La estructura de archivos de un
 
   
 
-java
 
-Copy code
 
 ├── node_modules
 
