@@ -1,4 +1,28 @@
-**Creación de un proyecto React**
+## Curriculum Vitae con React
+
+ - En el mundo actual, la presentación de un currículum vítae es más que
+   simplemente enumerar experiencias laborales y habilidades. Es una
+   oportunidad para destacar tu personalidad, creatividad y habilidades
+   técnicas. ¿Qué mejor manera de lograrlo que con una aplicación web
+   interactiva y moderna?
+   
+ - En este proyecto de currículum vítae, utilizaremos React, una
+   biblioteca de JavaScript ampliamente utilizada y respaldada por
+   Facebook, para crear una experiencia de usuario dinámica y atractiva.
+   React nos permite construir interfaces de usuario reutilizables
+   mediante componentes, lo que facilita la gestión y actualización de
+   contenido.
+   
+ - Con React, podemos crear un currículum vítae que no solo sea fácil de
+   leer y entender, sino también interactivo. Podremos organizar y
+   presentar información de manera clara y estructurada, al tiempo que
+   brindamos a los empleadores una experiencia de navegación fluida y
+   atractiva.
+   
+ - ¡Únete a mí en este viaje para crear un currículum vítae único y
+   cautivador utilizando React!
+
+## Creación de un proyecto React
 
  - ***1. Instalación de Create React App***
 
